@@ -1,0 +1,22 @@
+<!-- WebX Exp11: Feedback Form using Flask -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <form action="/submit" method="POST">
+        Name:<br>
+        <input type="text" name="name" required><br><br>
+
+        Email:<br>
+        <input type="email" name="email" required><br><br>
+
+        Feedback:<br>
+        <textarea name="feedback" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
